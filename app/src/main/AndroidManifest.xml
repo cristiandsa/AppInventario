@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Login_Activity"></activity>
+        <activity
+            android:name=".AdminActivity"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".scan_Activity" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/SplashTheme">
